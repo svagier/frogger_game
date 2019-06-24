@@ -1,0 +1,22 @@
+VEHICLE_WIDTH = 80
+BLOCK_WIDTH = VEHICLE_WIDTH // 2
+LANE_HEIGHT = 40
+LANE_QUANTITY = 11
+COLUMN_QUANTITY = 11
+WIDTH = VEHICLE_WIDTH * COLUMN_QUANTITY // 2
+HEIGHT = LANE_HEIGHT * LANE_QUANTITY
+CONE_LANE = 5
+
+RED = (255, 0, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+
+PLAYER_DELAY = 100   # how often player may press keys (in ms)
+PLAYER_SPEED = VEHICLE_WIDTH/2    # how fast the sprites move
+VEHICLE_SPEED = 5
+
+#min and max number of vehicles per lane
+MIN_VEHICLES = 2
+MAX_VEHICLES = 3
